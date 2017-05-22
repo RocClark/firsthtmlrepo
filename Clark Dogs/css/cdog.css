@@ -1,0 +1,30 @@
+body {
+	font-family:Verdana, Arial, sans-serif;
+	background-color: #971B1B;
+	}
+
+header { 
+	background-color: #F6DCB4;
+    color: #080808; 
+    text-align: center;
+	padding: 10px;
+	height:70px;
+	}
+
+nav { 
+	float: left;
+	width: 150px;
+	letter-spacing:0.1em;
+	font-weight: bold;
+	
+	} 
+
+nav a { 
+	 
+    display: block;
+	
+	}
+	img {
+    max-width: 50%;
+    max-height: 50%;
+}
