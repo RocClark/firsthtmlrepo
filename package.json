@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node /Users/roscoeclark/Documents/repo/github/firsthtmlrepo/node_modules/http-server/bin/http-server"
+    "start": "node ./node_modules/http-server/bin/http-server"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/RocClark/firsthtmlrepo/issues"
   },
-  "homepage": "https://github.com/RocClark/firsthtmlrepo#readme"
+  "homepage": "https://github.com/RocClark/firsthtmlrepo#readme",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
 }
