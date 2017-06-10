@@ -1,2 +1,25 @@
 hi there
 <a href="./index.html">homepage</a>
+
+<script>
+function getQueryStrings() { 
+  var assoc  = {};
+  var decode = function (s) { return decodeURIComponent(s.replace(/\+/g, " ")); };
+  var queryString = location.search.substring(1); 
+  var keyValues = queryString.split('&'); 
+
+  for(var i in keyValues) { 
+    var key = keyValues[i].split('=');
+    if (key.length > 1) {
+      assoc[decode(key[0])] = decode(key[1]);
+    }
+  } 
+
+  return assoc; 
+} 
+
+var qs = getQueryStrings();
+var dogID = qs["dogID"];
+console.log(dogID);
+
+</script>
